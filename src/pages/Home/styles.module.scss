@@ -1,0 +1,33 @@
+.home{
+    display: flex;
+    overflow: hidden;
+    & .user{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: fit-content;
+        margin: 0 auto;
+        & h4{
+            color: #fff;
+            letter-spacing: 2px;
+        }
+        & p{
+            color: #acacac;
+            font-size: 13px;
+            text-align: start;
+            font-weight: 300;
+            & span{
+                font-size: 10px;
+                margin-right: 3px;
+                color: green;
+            }
+        }
+    }
+    &>.content{
+        flex: 1;
+        min-height: 100vh;
+        padding: 10px;
+        overflow-y: auto;
+        margin-left: 300px;
+        background-color: rgb(43, 43, 43);
+    }
+}

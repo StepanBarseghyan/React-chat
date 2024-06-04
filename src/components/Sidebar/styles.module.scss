@@ -1,0 +1,25 @@
+.sidebar{
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    // border-right: 2px solid black;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+    & .header{
+        padding: 10px;
+        background-color: rgb(112, 112, 112);;
+    }
+    & .searchBar{
+        padding: 10px;
+        background-color: rgb(112, 112, 112);;
+        margin-top: 50px;
+    }
+    & .dialogs{
+        height: 450px;
+        padding: 10px;
+        background-color: rgb(112, 112, 112);
+        margin-top: 30px;
+    }
+}
